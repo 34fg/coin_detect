@@ -5,7 +5,7 @@ from utils import imgProcessing, findContours
 cap = cv2.VideoCapture(1)
 
 while True:
-    # Read a frame from the webcam
+    # Read a frame from the cam
     ret, frame = cap.read()
 
     img_out= imgProcessing(frame)
